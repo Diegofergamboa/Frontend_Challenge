@@ -1,0 +1,30 @@
+
+/* Encabezado */
+
+.container_head {
+    border: 2px solid #000;
+}
+    .item1_encabezado {
+        border: 2px solid #000;
+    }
+    .item2_encabezado {
+        border: 2px solid #000;
+    }
+    .item3_encabezado {
+        border: 2px solid #000;
+    }
+    .item4_encabezado {
+        border: 2px solid #000;
+    }
+
+    /* Items principal */
+
+.container_leftbody {
+    border: 2px solid #000;
+}
+    .1_container {
+        border: 2px solid #000;
+    }
+        .1item_1_container {
+            border: 2px solid #000;
+        }

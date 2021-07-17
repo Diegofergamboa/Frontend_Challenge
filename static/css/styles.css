@@ -1,0 +1,92 @@
+/* General */
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+    /* General */
+    .container_father {
+        background: #000;
+    }
+
+        /* Encabezado */
+
+        .container_head {
+            background: #2C2E43   ;
+            border: 2px solid #000;
+            padding: 100px;
+        }
+            .item1_encabezado {
+                border: 2px solid #000;
+            }
+                .img_header1 {
+                    border: 100px ;
+                }
+            .item2_encabezado {
+                border: 2px solid #000;
+            }
+                .img_header2 {
+                    border: 2px ;
+                }
+            .item3_encabezado {
+                border: 2px solid #000;
+            }
+                .img_header3 {
+                    border: 2px ;
+                }
+            .item4_encabezado {
+                border: 2px solid #000;
+            }
+                .img_header4 {
+                    border: 2px ;
+                }
+
+        /* Items principal */
+
+    .container_leftbody {
+        background: #595260;
+        border: 2px solid #000;
+    }
+        .container_1 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+        }
+            .imagen1 {
+                border: 2px solid #000;
+            }
+        .container_2 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+        }
+            .imagen2 {
+                border: 2px solid #000;
+            }
+        .container_3 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+            }
+            .imagen3 {
+                border: 2px solid #000;
+            }
+        .container_4 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+        }
+            .imagen4 {
+                border: 2px solid #000;
+            }
+        .container_5 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+        }
+            .imagen5 {
+                border: 2px solid #000;
+            }
+        .container_6 {
+            background: #B2B1B9 ;
+            border: 2px solid #000;
+            }
+            .imagen6 {
+                border: 2px solid #000;
+            }

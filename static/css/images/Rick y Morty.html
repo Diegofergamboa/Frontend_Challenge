@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="And exercise with the Rick and MOrty API" content="">
+    <link rel="stylesheet" type="text/css" href="./Rick y Morty_files/styles.css">
+    <title>Rick y Morty</title>
+</head>
+<body>
+    <script type="module" src="./Rick y Morty_files/app.js"></script>
+    <section class="container_head">
+        <div class="item1_encabezado"></div>
+            <nav class="1img_header" alt="" src="static/css/images/logo.png"></nav>
+        <div class="item2_encabezado"></div>
+            <nav class="1img_header" alt="" src="static/css/images/ig_logo.png"></nav>
+        <div class="item3_encabezado"></div>
+            <nav class="1img_header" alt="" src="static/css/images/github_logo.png"></nav>
+        <div class="item4_encabezado"></div>
+            <nav class="1img_header" alt="" src="static/css/images/twitter_logo.png"></nav>
+        <div class="item5_encabezado">The Rick y Morty Character Database</div>
+    </section>
+    <h1 class="container_h1">
+            <p class="item1_h1"> <input type="text" name="Nombre del personaje."></p>
+            <p class="item2_h2"> <input type="submit" value="Buscar"></p>
+    </h1>
+    <div class="container_leftbody">
+        <div class="1_container">
+            <img class="1item_1_container" src="./Rick y Morty_files/222.jpeg" alt="Michael Denny and the Denny Singers">
+        </div>
+        <div class="2_container">
+            <img class="1item_2_container" src="./Rick y Morty_files/225.jpeg" alt="Michael Thompson">
+        </div>
+        <div class="3_container">
+            <img class="1item_3_container" src="./Rick y Morty_files/239.jpeg" alt="Mr. Goldenfold">
+        </div>
+        <div class="4_container">
+            <img class="1item_4_container" src="./Rick y Morty_files/401.jpeg" alt="Morty Jr&#39;s interviewer">
+        </div>
+        <div class="5_container">
+            <img class="1item_5_container" src="./Rick y Morty_files/440.jpeg" alt="Veterinary Nurse">
+        </div>
+        <div class="6_container">
+            <img class="1item_6_container" src="./Rick y Morty_files/632.jpeg" alt="Train Cop">
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
