@@ -5,41 +5,69 @@
     box-sizing: border-box;
 }
 
-    /* General */
+    /* Father */
     .container_father {
-        background: #000;
+        border: 1px solid #000;
+        display: flex;
+        background: yellowgreen;
+        flex-flow: column nowrap;
     }
 
         /* Encabezado */
 
         .container_head {
+            display: flex;
             background: #2C2E43   ;
             border: 2px solid #000;
-            padding: 100px;
+            flex-flow: column nowrap;
         }
-            .item1_encabezado {
-                border: 2px solid #000;
+            .container_headerup {
+                background-color: white;
+                display: flex;
+                flex-flow: row nowrap;
             }
-                .img_header1 {
-                    border: 100px ;
+                .container_headerleft {
+                    background-color: white;
+                    -webkit-order: 0;
+                    -ms-flex-order: 0;
+                    order: 0;
+                    -webkit-flex: 0 1 auto;
+                    -ms-flex: 0 1 auto;
+                    flex: 0 1 auto;
+                    -webkit-align-self: flex-start;
+                    -ms-flex-item-align: start;
+                    align-self: flex-start;
+                    }
+                        .img_header1 {
+                            border: 2px solid ;
+                            height : 90px;
+                            width : 90px;
+                        }
+                        .img_header2 {
+                            border: 2px ;
+                            height : 80px;
+                            width : 80px;
+                        }
+                        .img_header3 {
+                            border: 2px ;
+                            height : 90px;
+                            width : 90px;
+                        }
+                .container_headerright {
+                    
+
+                    }
+
                 }
-            .item2_encabezado {
-                border: 2px solid #000;
-            }
-                .img_header2 {
-                    border: 2px ;
-                }
-            .item3_encabezado {
-                border: 2px solid #000;
-            }
-                .img_header3 {
-                    border: 2px ;
-                }
-            .item4_encabezado {
-                border: 2px solid #000;
-            }
-                .img_header4 {
-                    border: 2px ;
+                    .img_header4 {
+                        display: flex-end;
+                        border: 2px ;
+                        height : 90px;
+                        width : 90px;
+                    }
+            .container_headerdown {
+                display: flex;
+                flex-flow: nowrap;
                 }
 
         /* Items principal */
