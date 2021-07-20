@@ -28,7 +28,7 @@
                 flex-flow: row nowrap;
             }
                 .container_headerleft {
-                    background-color: white;
+                    background-image: url(/static/css/images/fondo2.png);
                     display: flex;
                     flex-flow: row-reverse;
 
@@ -54,54 +54,161 @@
                 justify-content: center;
 
                 }
-        
         /* H1 */
+        .container_h1 {
+            display: flex;
+            flex-flow: column nowrap;
+            background: #2C2E43;
+            border: 2px solid #000;
+        }
+            .container1_h1 {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                justify-content: center;
 
-        /* Items principal */
+                }
+                .item1_h1 {
+                    display: flex;
+                    justify-content: center;
 
-    .container_leftbody {
-        background: #595260;
+                    }
+                .item2_h1 {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+        /* Personajes */
+
+    .container_content {
+        display: flex;
+        flex-flow: row nowrap;
+        background: #2C2E43;
         border: 2px solid #000;
+        justify-content: center;
     }
-        .container_1 {
-            background: #B2B1B9 ;
-            border: 2px solid #000;
+        .container_content_left {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid   ;
+            width: 70rem;
+
         }
-            .imagen1 {
-                border: 2px solid #000;
+
+            .container_content_left {
+                background-color:#2C2E43;;
+                padding: 20px;
+                display: flex;
+                flex-flow: row wrap;
+                -ms-flex-align: stretch;
             }
-        .container_2 {
-            background: #B2B1B9 ;
+                .container_1 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                }
+                    .imagen1 {
+                        border: 2px solid #000;
+                    }
+                .container_2 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                }
+                    .imagen2 {
+                        border: 2px solid #000;
+                    }
+                .container_3 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                    }
+                    .imagen3 {
+                        border: 2px solid #000;
+                    }
+                .container_4 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                }
+                    .imagen4 {
+                        border: 2px solid #000;
+                    }
+                .container_5 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                }
+                    .imagen5 {
+                        border: 2px solid #000;
+                    }
+                .container_6 {
+                    background: #B2B1B9 ;
+                    border: 2px solid #000;
+                    }
+                    .imagen6 {
+                        border: 2px solid #000;
+                    }
+        .container_content_right {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            font-weight: bold;
+            border: solid 2px #000;
+
+            }
+            .container_7 {
+                border: green 2px;
+                height: 900px;
+                align-content: center;
+                align-items: center;
+            }
+                .item1_content2 {
+                    display: flex;
+                    flex: 1 1 auto;
+                    border: 2px solid #000 ;
+                    background: #B2B1B9 ;
+                    }
+                .item2_content2 {
+                    border: 2px solid #000 ;
+                    display : flex;
+                    flex: 1 1 auto;
+                    background: #B2B1B9 ;
+                    font-size: 25px;
+
+                    }
+    .container_footer {
+        display: flex;
+        border: 2px solid #000;
+        height: 8rem;
+        background: #2C2E43 ;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        font-size: 25px;
+        font-weight: bold;
+        /* justify-items: center; */
+    }
+        .item1_footer {
+            display: flex;
             border: 2px solid #000;
+            background-color: #B2B1B9;
+            flex: 1 1 auto;
+
         }
-            .imagen2 {
-                border: 2px solid #000;
-            }
-        .container_3 {
-            background: #B2B1B9 ;
+        .item2_footer {
+            display: flex;
             border: 2px solid #000;
-            }
-            .imagen3 {
-                border: 2px solid #000;
-            }
-        .container_4 {
-            background: #B2B1B9 ;
-            border: 2px solid #000;
+            background-color: #B2B1B9;
+            flex: 1 1 auto;
+
+
         }
-            .imagen4 {
-                border: 2px solid #000;
-            }
-        .container_5 {
-            background: #B2B1B9 ;
+        .item3_footer {
+            display: flex;
             border: 2px solid #000;
+            background-color: #B2B1B9;
+            flex: 1 1 auto;
+
         }
-            .imagen5 {
-                border: 2px solid #000;
-            }
-        .container_6 {
-            background: #B2B1B9 ;
-            border: 2px solid #000;
-            }
-            .imagen6 {
-                border: 2px solid #000;
-            }
