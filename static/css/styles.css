@@ -155,13 +155,11 @@
             flex-wrap: wrap;
             align-content: center;
             align-items: center;
-            font-weight: bold;
-            border: solid 2px #000;
-
             }
             .container_7 {
+                display: flex;
+                flex-flow: column nowrap;
                 border: green 2px;
-                height: 900px;
                 align-content: center;
                 align-items: center;
             }
@@ -182,7 +180,7 @@
     .container_footer {
         display: flex;
         border: 2px solid #000;
-        height: 8rem;
+        height: 5rem;
         background: #2C2E43 ;
         flex-flow: row wrap;
         justify-content: space-around;
