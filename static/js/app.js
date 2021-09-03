@@ -1,4 +1,6 @@
 import API from './api.js'
 const api = new API()
-console.log(api.getCharacter(2))
+console.log(api.getCharacter('hola'))
+
+
 
